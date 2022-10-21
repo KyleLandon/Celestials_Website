@@ -1,0 +1,24 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="973.5px" height="224.5px">
+<defs>
+<filter filterUnits="userSpaceOnUse" id="Filter_0" x="-979.5px" y="-819.5px" width="2010px" height="1170px"  >
+    <feOffset in="SourceAlpha" dx="0" dy="5" />
+    <feGaussianBlur result="blurOut" stdDeviation="4.583" />
+    <feFlood flood-color="rgb(0, 0, 0)" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="blurOut" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.79"/></feComponentTransfer>
+    <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+
+</defs>
+<g filter="url(#Filter_0)">
+<path fill-rule="evenodd"  stroke="rgb(0, 0, 0)" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" opacity="0.8" fill="rgb(47, 49, 54)"
+ d="M53.500,18.500 L918.500,18.500 C935.069,18.500 948.500,31.931 948.500,48.500 L948.500,164.500 C948.500,181.069 935.069,194.500 918.500,194.500 L53.500,194.500 C36.931,194.500 23.500,181.069 23.500,164.500 L23.500,48.500 C23.500,31.931 36.931,18.500 53.500,18.500 Z"/>
+<text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="200px" x="45.5px" y="143.199px"><tspan font-size="200px" font-family="Franklin Gothic Demi Cond" fill="#FFFFFF">APPLY&#32;NOW</tspan></text>
+</g>
+</svg>
